@@ -1,3 +1,5 @@
+@import "remixicon/fonts/remixicon.css";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -105,9 +107,74 @@ code {
   text-align: center;
   justify-content: center;
 }
+.navbar{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
 .head{
+  width: 50%;
   margin-top: 1vw;
   text-align: center;
   font-size: 2vw;
   font-weight: 700;
+}
+.todo{
+  margin-top: 1.5vw;
+  margin-left: 1vw;
+  margin-right: 0;
+  right: 0;
+  text-align: center;
+}
+.navLink {
+  text-decoration: none; 
+  color: black;      
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.titletodo {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.inputfield{
+  display: flex;
+  justify-content: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+.inputfield input{ 
+  margin-right: .5vw;
+  height: 2vw;
+  width: 70%;
+}
+.inputfield button{
+  background-color: rgb(67, 145, 67);
+  width: 20%;
+  font-size: 1.2vw;
+}
+.container2{
+  width: 35%;
+  background-color: rgb(62, 85, 63);
+}
+.todobody{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.taskdata{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 1.5vw;
+}
+.deleteIcon{
+padding-top: 1vw;
+font-size: 1.3vw;
+}
+.taskdata p{
+  font-size: 1vw;
 }

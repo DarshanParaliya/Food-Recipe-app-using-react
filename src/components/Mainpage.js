@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom';
 import Mealcards from './Mealcards'
+import Todolist from './Todolist'
 
 function Mainpage() {
 const [data, setData] = useState()
@@ -26,7 +28,14 @@ if(search == ""){
   // console.log(data);
   return (
     <>
-    <div className='head'>FOOD RECIPE APP</div>
+    <div className='navbar'>
+    <div className='head'>FOOD RECIPE APP</div> 
+    <div className='todo'>
+    <NavLink to="/todo" className='navLink'> Go To TodoList</NavLink>
+    </div>
+
+    </div>
+ 
     <div className='container'>
 
    <div className='searchBar'>
