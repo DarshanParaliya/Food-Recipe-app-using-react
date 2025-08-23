@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/css/main.1ab1ea50.css",
-    "main.js": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/js/main.2fd5fb86.js",
-    "static/js/453.72259088.chunk.js": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/js/453.72259088.chunk.js",
-    "index.html": "/DarshanParaliya/Food-Recipe-app-using-react.git/index.html",
-    "main.1ab1ea50.css.map": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/css/main.1ab1ea50.css.map",
-    "main.2fd5fb86.js.map": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/js/main.2fd5fb86.js.map",
-    "453.72259088.chunk.js.map": "/DarshanParaliya/Food-Recipe-app-using-react.git/static/js/453.72259088.chunk.js.map"
+    "main.css": "/Food-Recipe-app-using-react/static/css/main.1ab1ea50.css",
+    "main.js": "/Food-Recipe-app-using-react/static/js/main.7ee9b5b2.js",
+    "static/js/453.72259088.chunk.js": "/Food-Recipe-app-using-react/static/js/453.72259088.chunk.js",
+    "index.html": "/Food-Recipe-app-using-react/index.html",
+    "main.1ab1ea50.css.map": "/Food-Recipe-app-using-react/static/css/main.1ab1ea50.css.map",
+    "main.7ee9b5b2.js.map": "/Food-Recipe-app-using-react/static/js/main.7ee9b5b2.js.map",
+    "453.72259088.chunk.js.map": "/Food-Recipe-app-using-react/static/js/453.72259088.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab1ea50.css",
-    "static/js/main.2fd5fb86.js"
+    "static/js/main.7ee9b5b2.js"
   ]
 }
