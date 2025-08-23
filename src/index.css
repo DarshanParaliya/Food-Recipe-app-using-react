@@ -178,3 +178,29 @@ font-size: 1.3vw;
 .taskdata p{
   font-size: 1vw;
 }
+@media (max-width: 500px) {
+  .container2 {
+    width: 85%;
+  }
+  .inputfield {
+    margin: 3vw
+  }
+  .inputfield input {
+    margin-right: 3vw;
+    height: 11vw;
+    width: 72%;
+}
+.inputfield button {
+  font-size: 4.2vw;
+}
+.deleteIcon {
+  padding-right: 2vw;
+  padding-top: 5vw;
+  font-size: 7.3vw;
+  padding-bottom: 2vw;
+}
+.taskdata p {
+  font-size: 5vw;
+  padding-left: 3vw;
+}
+}
