@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Food-Recipe-app-using-react/static/css/main.1ab1ea50.css",
-    "main.js": "/Food-Recipe-app-using-react/static/js/main.c0bfae84.js",
+    "main.js": "/Food-Recipe-app-using-react/static/js/main.26176799.js",
     "static/js/453.72259088.chunk.js": "/Food-Recipe-app-using-react/static/js/453.72259088.chunk.js",
     "index.html": "/Food-Recipe-app-using-react/index.html",
     "main.1ab1ea50.css.map": "/Food-Recipe-app-using-react/static/css/main.1ab1ea50.css.map",
-    "main.c0bfae84.js.map": "/Food-Recipe-app-using-react/static/js/main.c0bfae84.js.map",
+    "main.26176799.js.map": "/Food-Recipe-app-using-react/static/js/main.26176799.js.map",
     "453.72259088.chunk.js.map": "/Food-Recipe-app-using-react/static/js/453.72259088.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ab1ea50.css",
-    "static/js/main.c0bfae84.js"
+    "static/js/main.26176799.js"
   ]
 }
