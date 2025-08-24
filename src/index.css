@@ -193,6 +193,72 @@ font-size: 1.3vw;
   margin-left: 1vw;
   font-size: 1.2vw;
 }
+.slide-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.slide-container img{
+  height: 25vw;
+  width: 60vw;
+  border-radius: 10px;
+}
+.left-btn, .right-btn{
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  color: aqua;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.left-btn{
+  left: 20vw;
+}
+.right-btn{
+  right: 20vw;
+}
+.cat-container{
+    border-radius: 10px;
+    padding: 1.5vw 6vw;
+    background-color: grey;
+    margin-top: 5vw;
+}
+.cat-container label{
+  font-size: 1.2vw;
+  font-weight: 550;
+  margin-right: 1vw;
+}
+.cat-container select{
+  padding: .5vw 1vw;
+  color: white;
+  background-color: #845555;
+  font-weight: 550;
+  font-size: .99vw;
+}
+.product{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card{
+  width: 90%;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card-detaails{
+      display: flex;
+      justify-content: center;
+      width: 33%;
+      margin: 2vw;
+      background-color: rgb(240, 233, 233);
+      padding: 1vw;
+      border-radius: 10px;
+      flex-direction: column;
+}
 @media (max-width: 500px) {
   .container2 {
     width: 85%;

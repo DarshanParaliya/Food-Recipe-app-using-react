@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Mealcards from './Mealcards'
 import Todolist from './Todolist'
+import Category from './Category';
+// import Slider from './Slider';
 
 function Mainpage() {
 const [data, setData] = useState()
@@ -31,7 +33,10 @@ if(search == ""){
     <div className='navbar'>
     <div className='head'>FOOD RECIPE APP</div> 
     <div className='todo'>
-    <NavLink to="/todo" className='navLink'> Go To TodoList</NavLink>
+    <NavLink to="/todo" className='navLink'>TodoList</NavLink>
+    </div>
+    <div className='todo'>
+    <NavLink to="/category" className='navLink'>filter</NavLink>
     </div>
 
     </div>
@@ -40,10 +45,13 @@ if(search == ""){
 
    <div className='searchBar'>
     <input type='text' placeholder='Enter Dishes' onChange={handleInput} />
-    <button onClick={myFun}>Seach</button>
+    <button onClick={myFun}>Search</button>
    </div>
    <h4 className='msg'>{msg}</h4>
     </div>
+     
+     {/* <Slider/> */}
+
     <div>
       <Mealcards details={data} />
     </div>

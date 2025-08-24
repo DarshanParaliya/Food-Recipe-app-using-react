@@ -1,0 +1,18 @@
+[
+    { "id": "1", "modelName": "Nova X1 Smartphone 6/128", "price": 13999, "image": "https://picsum.photos/id/180/600/400" },
+    { "id": "2", "modelName": "Auralink Buds Pro TWS", "price": 2999, "image": "https://picsum.photos/id/1080/600/400" },
+    { "id": "3", "modelName": "VoltBook 14\" i5 8/512 Laptop", "price": 51990, "image": "https://picsum.photos/id/0/600/400" },
+    { "id": "4", "modelName": "PulseFit S2 Smartwatch", "price": 3499, "image": "https://picsum.photos/id/1062/600/400" },
+    { "id": "5", "modelName": "BoomBarrel BT Speaker 20W", "price": 2499, "image": "https://picsum.photos/id/82/600/400" },
+    { "id": "6", "modelName": "QuickCharge 20000mAh Power Bank", "price": 1899, "image": "https://picsum.photos/id/29/600/400" },
+    { "id": "7", "modelName": "MechaKeys RGB Mechanical Keyboard", "price": 2990, "image": "https://picsum.photos/id/96/600/400" },
+    { "id": "8", "modelName": "SwiftMouse Wireless 2.4G", "price": 799, "image": "https://picsum.photos/id/1060/600/400" },
+    { "id": "9", "modelName": "ClearView 24\" FHD Monitor", "price": 8490, "image": "https://picsum.photos/id/1011/600/400" },
+    { "id": "q0", "modelName": "Turbo SSD NVMe 1TB Gen4", "price": 5890, "image": "https://picsum.photos/id/1015/600/400" },
+    { "id": "11", "modelName": "AirNet Dual-Band Wi-Fi Router", "price": 2199, "image": "https://picsum.photos/id/49/600/400" },
+    { "id": "12", "modelName": "StreamStick 4K Media Player", "price": 3499, "image": "https://picsum.photos/id/103/600/400" },
+    { "id": "13", "modelName": "StudioMic USB Condenser", "price": 3990, "image": "https://picsum.photos/id/1027/600/400" },
+    { "id": "14", "modelName": "HyperCharge 65W GaN Adapter", "price": 2490, "image": "https://picsum.photos/id/1069/600/400" },
+    { "id": "15", "modelName": "ProCam 1080p Webcam", "price": 1990, "image": "https://picsum.photos/id/250/600/400" }
+  ]
+  
