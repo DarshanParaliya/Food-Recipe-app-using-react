@@ -4,6 +4,12 @@ import { useState } from 'react'
 function Todolist() {
 const[initial, setInitial] = useState();
 const[data, setData] = useState([]);
+const[darkMode, setDarkMode] = useState(false);
+ 
+const change = () =>{
+setDarkMode(!darkMode)
+}
+
 
 const inputHandle = (event) => {
  setInitial(event.target.value)
@@ -23,9 +29,10 @@ const deletData = (id) =>{
 }
 
   return (
-    <div className='todobody'>
+    <div className={darkMode ? "todobodyDarkmode" : "todobody"}>
         <div className='titletodo'>
         <h1>Todolist</h1>
+        {darkMode == false ? <i className="ri-sun-line mode" onClick={change}></i> : <i className="ri-moon-fill mode" onClick={change}></i>}
         </div>
         <div className='container2'>
         <div className='inputfield'>
