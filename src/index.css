@@ -289,6 +289,21 @@ align-items: center;
   margin-left: 7vw;
   font-size: 5.2vw;
 }
+.cat-container label {
+    font-size: 5.2vw;
+    margin-right: 4vw;
+}
+.cat-container select {
+  padding: 1vw 1.5vw;
+  font-size: 4vw;
+}
+.cat-container {
+  border-radius: 10px;
+  padding: 2.5vw 6vw;
+}
+.card-detaails {
+  width: 85%;
+}
 }
 
 
