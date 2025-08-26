@@ -1,52 +1,45 @@
 import data from './data.json'
-import React ,{ useState , useEffect, useRef} from 'react'
+import React ,{ useState , useEffect} from 'react'
 
 const Slider= () => { 
-    const [next, setNext] = useState(0);
-    let ref = useRef(null);
+    const [index, setIndex] = useState(0);
 
-
-    const handleNext = () =>{
-        setNext((previousValue) =>{
-           if(previousValue == data.length-1){
-            return 0
-           }
-           return previousValue+1;
-           
-        })
+    const next = () =>{
+       setIndex(index === data.length-1 ? 0 : index+1)
     }
 
-    const handlePre = () =>{
-       if(next == 0){
-        setNext(data.length-1)
-       }else{
-        setNext(next-1)
-       }
-    }
+    const pre = () =>{
+      setIndex(index ===  0 ? data.length-1 : index-1)
+   }
 
     useEffect(() => {
-        ref.current = setInterval(handleNext, 4000)  
+        const interval = setInterval(next, 5000);
         return (() => {
-            clearInterval(ref.current) 
+            clearInterval(interval) ;
          })           
-      }, [])
+      }, [index])
 
-      const pauseSlider = () =>{
-        clearInterval(ref.current)
-      }
-      const resumeSlider = () =>{
-        setInterval(handleNext, 4000);
-      }
-
+    
       return(
-        <>
-  <div className='slide-container' onMouseEnter={pauseSlider} onMouseLeave={resumeSlider}>
-  <i className="ri-arrow-left-wide-fill left-btn" onClick={handlePre}></i>
-  <img src={data[next].download_url} />
-  <i className="ri-arrow-right-wide-fill right-btn" onClick={handleNext}></i>
-  
-  </div>
-  </>
+        <div className='slider-container'>
+    
+    <i className="ri-arrow-left-wide-line left-btn" onClick={pre}></i>
+  <img src={data[index].download_url} alt={data[index].author}/>
+    <i className="ri-arrow-right-wide-fill right-btn" onClick={next}></i>
+         
+         <div className='dots'>
+           { data.map((_,i) => ( 
+              <span 
+              key={i}
+              onClick={()=>setIndex(i)}
+              className={`dot ${i === index ? "active" : ""}`}
+              >
+
+              </span>
+              
+           ))} 
+         </div>
+        </div>
       )
   }
   

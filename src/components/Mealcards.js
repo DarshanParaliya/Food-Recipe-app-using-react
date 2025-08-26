@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom';
 const Mealcards = ({details}) => {
     console.log(details);
   return (
-    <div className='meals'>
+    <div className='meals-data'>
+   <div className='meals'>
       {!details  ? "Data Not Found" : details.map((curItem)=>{
          return(
         <div className='mealImg' key={curItem.idMeal}>
@@ -17,6 +18,8 @@ const Mealcards = ({details}) => {
       
         }
     </div>
+    </div>
+ 
   )
 }
 

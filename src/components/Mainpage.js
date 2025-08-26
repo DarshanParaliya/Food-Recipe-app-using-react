@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Mealcards from './Mealcards'
 import Todolist from './Todolist'
 import Category from './Category';
-// import Slider from './Slider';
+import Slider from './Slider';
 
 function Mainpage() {
 const [data, setData] = useState()
@@ -26,6 +26,19 @@ if(search == ""){
 }
 }
 
+useEffect(()=>{
+   const fetchDefaultMeals = async () => {
+    try{
+      const jeson = await fetch (`https://www.themealdb.com/api/json/v1/1/search.php?s=c`)
+      const jesonData = await jeson.json();
+      setData(jesonData.meals.slice(0, 15))
+    }catch(error){
+      console.log("error is coming",error);
+    }
+    
+   };
+   fetchDefaultMeals();
+},[])
    
   // console.log(data);
   return (
@@ -50,7 +63,7 @@ if(search == ""){
    <h4 className='msg'>{msg}</h4>
     </div>
      
-     {/* <Slider/> */}
+     <Slider/>
 
     <div>
       <Mealcards details={data} />
