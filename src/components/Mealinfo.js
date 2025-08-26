@@ -23,7 +23,7 @@ const [info , setInfo] = useState();
      {
         !info ? "" :
         <div className='mealInfo'>
-        <img src={info.strMealThumb}/>
+          <img src={info.strMealThumb}/>
       <div className='info'>
         <h1>Recipe Details</h1>
         <button>{info.strMeal}</button>

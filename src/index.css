@@ -393,6 +393,35 @@ align-items: center;
   margin-top: 3.5vw;
   margin-left: 4vw;
  }
+ .mealInfo img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 13%;
+ }
+ .info{
+  width: 100%;
+  height: 50vw;
+  position: absolute;
+  top: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .info h1{
+  font-size: 15px;
+ }
+ .mealInfo button {
+  font-size: 10px;
+ }
+ .info h3{
+  font-size: 10px;
+ }
+ .info p {
+  padding: 1vw 8vw;
+  font-size: 7px;
+}
 }
 
 
